@@ -1,0 +1,40 @@
+.team_header{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+       color: #999999;
+}
+.team_header_heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.team_header_button{
+    display: flex;
+    border: none;
+    background-color: transparent;
+    align-items: center;
+    font-family: inherit;
+    color: inherit;
+    padding: .7rem;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.team_header_button:hover{
+    background-color: #e2f4ea;
+}
+
+.team_header_text{
+    margin-right: .4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 500px) {
+  .team_header_text {
+    display: none;
+  }
+}

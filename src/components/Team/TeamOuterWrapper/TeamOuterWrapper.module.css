@@ -1,0 +1,17 @@
+.team_wrapper {
+  max-width: 550px;
+  border: 1px solid #e1e3e4;
+  border-top: 4px solid #007672;
+  margin: 2rem auto;
+}
+
+@media screen and (max-width: 600px) {
+  .team_wrapper {
+    width: 93%;
+  }
+}
+
+.team_wrapper__inner {
+  margin: 0 2rem;
+  margin-top: 2rem;
+}

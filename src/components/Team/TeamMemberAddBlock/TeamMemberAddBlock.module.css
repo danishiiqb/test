@@ -1,0 +1,37 @@
+.add_block_container {
+  background-color: white;
+  box-shadow: 0px 0 0.28rem #a7a7a7c9;
+  position: absolute;
+  z-index: 788;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.add_input {
+  border: none;
+  border-bottom: 0.8px solid #007672;
+  padding: 0.3rem;
+  outline: none;
+  font-family: inherit;
+  color: inherit;
+  width: 100%;
+}
+
+.input_container {
+  margin: 1.6rem 1rem;
+  display: flex;
+  position: relative;
+}
+
+.input_icon {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+}
+
+.input_icon svg {
+  transform: rotate(45deg);
+}

@@ -1,0 +1,15 @@
+.list_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 1.6rem;
+}
+
+@media screen and (max-width: 500px) {
+  .list_container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.list_add_contain {
+  position: relative;
+}
